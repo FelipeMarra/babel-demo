@@ -13,6 +13,6 @@ This paper investigates the capabilities of text-to-audio music generation model
 Demo
 ---------------
 
-babel-bardo/assets/audio/file.wav
+/assets/audio/file.wav
 
 {% include open-embed.html %}
