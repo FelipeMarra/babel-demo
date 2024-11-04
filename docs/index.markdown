@@ -13,6 +13,6 @@ This paper investigates the capabilities of text-to-audio music generation model
 Demo
 ---------------
 
-/assets/audio/file.wav
+/assets/audio/test.wav
 
 {% include open-embed.html %}
