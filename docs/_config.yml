@@ -15,9 +15,8 @@
 title: Babel Bardo Demo
 email: felipeferreiramarra@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  "Long-form text-to-music generation with adaptive prompts: A case
-  of study in Table-top Role-playing games soundtracks", or simply "Babel Bardo",
-  was accepted at the LAMIR 2024 workshop.
+  Demo site for the paper "Long-form text-to-music generation with adaptive prompts: A case
+  of study in Table-top Role-playing games soundtracks", or simply "Babel Bardo". Accepted at the LAMIR 2024 workshop.
 
 baseurl: /babel-demo
 url: http://felipemarra.github.io
