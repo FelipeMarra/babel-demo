@@ -29,29 +29,61 @@ Demo
 ---------------
 
 ### Example 1
-**Video**: [O Segredo na Ilha, Episode 1](https://www.youtube.com/watch?v=Pf4HzTdA2WE&t=12188s)
+**Video**: [Call of The Wild, Episode 2](https://www.youtube.com/watch?v=5_Z8pVgCIgw&t=60)
 
- <div style="width: 100%;">
+<div style="width: 100%;">
     <div  style="float: left;">
-    <div  style="float: left; padding-bottom:20px">
-        <h4>Original w/ Augmented Volume</h4>
-        <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/RFklOg3emtA" frameborder="0" allowfullscreen=""></iframe></div>
-    </div>
-    <div  style="margin-left: 476px;">
-        <h4>Babel Bardo Emotion:</h4>
-        <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/4dv2YIZz7sQ" frameborder="0" allowfullscreen=""></iframe></div>
+        <div  style="float: left; padding-bottom:20px">
+            <h4>Original</h4>
+            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/yqIufAQhebg" frameborder="0" allowfullscreen=""></iframe></div>
+        </div>
+        <div  style="margin-left: 476px;">
+            <h4>Babel Bardo Emotion:</h4>
+            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/0LZERqRHSb4" frameborder="0" allowfullscreen=""></iframe></div>
+        </div>
     </div>
 </div>
 
- <div style="width: 100%;">
-    <div  style="float: left;">
-    <div  style="float: left;">
-        <h4>Babel Bardo Description</h4>
-        <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/R3-5DUOIdO8" frameborder="0" allowfullscreen=""></iframe></div>
+<div style="width: 100%;">
+    <div  style="float: left; margin-bottom:40px">
+        <div  style="float: left;">
+            <h4>Babel Bardo Description</h4>
+            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/lP_wlA1x-Vo" frameborder="0" allowfullscreen=""></iframe></div>
+        </div>
+        <div  style="margin-left: 476px;">
+            <h4>Babel Bardo Description w/ Continuation</h4>
+            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/beBimQZdjKA" frameborder="0" allowfullscreen=""></iframe></div>
+        </div>
     </div>
-    <div  style="margin-left: 476px;">
-        <h4>Babel Bardo Description w/ Continuation</h4>
-        <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/9CnYtTqdCnU" frameborder="0" allowfullscreen=""></iframe></div>
+</div>
+
+### Example 2
+
+**Video**: [O Segredo na Ilha, Episode 1](https://www.youtube.com/watch?v=Pf4HzTdA2WE&t=12188s)
+
+<div style="width: 100%;">
+    <div  style="float: left;">
+        <div  style="float: left; padding-bottom:20px">
+            <h4>Original w/ Augmented Volume</h4>
+            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/RFklOg3emtA" frameborder="0" allowfullscreen=""></iframe></div>
+        </div>
+        <div  style="margin-left: 476px;">
+            <h4>Babel Bardo Emotion:</h4>
+            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/4dv2YIZz7sQ" frameborder="0" allowfullscreen=""></iframe></div>
+        </div>
+    </div>
+</div>
+
+<div style="width: 100%;">
+    <div  style="float: left;">
+        <div  style="float: left; margin-bottom:40px">
+            <h4>Babel Bardo Description</h4>
+            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/R3-5DUOIdO8" frameborder="0" allowfullscreen=""></iframe></div>
+        </div>
+        <div  style="margin-left: 476px;">
+            <h4>Babel Bardo Description w/ Continuation</h4>
+            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/9CnYtTqdCnU" frameborder="0" allowfullscreen=""></iframe></div>
+        </div>
     </div>
 </div>
 
