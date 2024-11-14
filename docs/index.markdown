@@ -26,16 +26,30 @@ Demo
 ---------------
 
 ### Example 1
-**RPG**: O Segredo na Ilha
+**Video**: [O Segredo na Ilha, Episode 1](https://www.youtube.com/watch?v=Pf4HzTdA2WE&t=12188s)
 
-**Original Video:**
+ <div style="width: 100%;">
+    <div  style="float: left;">
+    <div  style="float: left; padding-bottom:20px">
+        <h4>Original w/ Augmented Volume</h4>
+        <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/RFklOg3emtA" frameborder="0" allowfullscreen=""></iframe></div>
+    </div>
+    <div  style="margin-left: 476px;">
+        <h4>Babel Bardo Emotion:</h4>
+        <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/4dv2YIZz7sQ" frameborder="0" allowfullscreen=""></iframe></div>
+    </div>
+</div>
 
-Start time = 3:23:08
-
-https://www.youtube.com/watch?v=Pf4HzTdA2WE&t=12188s
-
-
-{{site.baseurl}}/assets/audio/test.wav
-
+ <div style="width: 100%;">
+    <div  style="float: left;">
+    <div  style="float: left;">
+        <h4>Babel Bardo Description</h4>
+        <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/R3-5DUOIdO8" frameborder="0" allowfullscreen=""></iframe></div>
+    </div>
+    <div  style="margin-left: 476px;">
+        <h4>Babel Bardo Description w/ Continuation</h4>
+        <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/9CnYtTqdCnU" frameborder="0" allowfullscreen=""></iframe></div>
+    </div>
+</div>
 
 {% include open-embed.html %}
