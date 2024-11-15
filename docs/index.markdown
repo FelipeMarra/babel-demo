@@ -3,6 +3,7 @@ layout: post
 title:  ''
 ---
 
+
 Abstract
 ---------------
 
@@ -33,6 +34,30 @@ The following presents examples containing a video link and four, three minutes-
 **Video Link**: [Call of The Wild, Episode 2](https://www.youtube.com/watch?v=5_Z8pVgCIgw&t=60)
 
 **About**: On this example we are starting at 1 min in the episode. Although the generation started at 0 min, we decided to center the example around a point were the systems might have identified a mood transition. The video starts with cuts of episode 1, remebering the tragedies faced by the players. When the adventure of episode 2 begins, the players are talking aboult invading a farmer village. The possible transition point here is at 1:27 minute, when the mater narrates a calm scene about the farmers. A father and it's son are arriving at the village. Although it looks like a calm scene, in this context the players will acctually destroy the village, since the villagers raptaded members of the players tribes. We can observe that Babel Bardo Description Continuation (BBDC) reacted to this, at 1:50 min generating a calm guitar. BBDC will them keep going back and fourth into calm guitar and suspence music. Babel Bardo Emotion receives the emotion "Calm" from the LLM at this excerpt, but it maintaing its concistency in relation to the previously generated music.
+
+<button class="open-modal" data-modal="modal-1">
+    Open Modal
+</button>
+
+<dialog id="modal-1">
+    <!-- Cabeçalho do modal -->
+    <div class="modal-header">
+        <!-- Título do modal -->
+        <h1 class="modal-title">
+            Sign in to our plataform
+        </h1>
+
+        <!-- Botão para fechar o modal -->
+        <button class="close-modal" type="button" data-modal="modal-1">
+            X
+        </button>
+    </div>
+
+    <!-- Corpo do modal -->
+    <div class="modal-body">
+        A
+    </div>
+</dialog>
 
 <div style="width: 100%;">
     <div  style="float: left;">
@@ -90,4 +115,4 @@ The following presents examples containing a video link and four, three minutes-
     </div>
 </div>
 
-{% include open-embed.html %}
+{% include modal.html %}
