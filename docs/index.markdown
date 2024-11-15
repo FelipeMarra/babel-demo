@@ -35,33 +35,27 @@ The following presents examples containing a video link and four, three minutes-
 
 **About**: In this example, we start at 1 min in the episode. Although the generation started at 0 min, we decided to center the example around a point where the systems might have identified a emotion transition. The video starts with cuts of episode 1, remembering the tragedies faced by the players. When the adventure of episode 2 begins, the players are talking about invading a farmer village. The possible transition point happens at minute 1:27, when the master narrates a calm scene about the farmers, where a father and his son are arriving at the village. Although it looks like a calm scene, in this context the players will actually destroy the village, since the villagers kidnapped members of the player's tribe. We can observe that Babel Bardo Description Continuation (BBDC) reacted to this at minute 1:50, generating a calm guitar. BBDC will then keep going back and forth into calm guitar and suspense music. Babel Bardo Emotion receives the emotion "Calm" from the LLM in this excerpt, but it maintains its consistency in relation to the previously generated music.
 
-<div style="width: 100%;">
-    <div  style="float: left;">
-        <div  style="float: left; padding-bottom:20px">
-            <h4>Original</h4>
-            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/yqIufAQhebg" frameborder="0" allowfullscreen=""></iframe></div>
-        </div>
-        <div  style="margin-left: 476px;">
-            <h4>
-                <!-- Modal Button -->
-                <a class="open-modal" data-modal="modal-cotw-2-E"> Emotion </a>
-            </h4>
-            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/0LZERqRHSb4" frameborder="0" allowfullscreen=""></iframe></div>
-        </div>
+<div class="video-row">
+    <div >
+        <h4>Original</h4>
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/yqIufAQhebg" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+    <span style="margin-right:0.5em; display:inline-block;"></span>
+    <div>
+        <h4>
+            <a class="open-modal" data-modal="modal-cotw-2-E"> Emotion </a>
+        </h4>
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/0LZERqRHSb4" frameborder="0" allowfullscreen=""></iframe>
     </div>
 </div>
 
 <!-- Modal COTW 2 E -->
 <dialog id="modal-cotw-2-E">
     <div class="modal-header">
-        <h1 class="modal-title">
-            Babel Bardo E Logs
-        </h1>
+        <h1 class="modal-title"> Babel Bardo E Logs </h1>
 
         <!-- Close Modal -->
-        <button class="close-modal" type="button" data-modal="modal-cotw-2-E">
-            X
-        </button>
+        <button class="close-modal" type="button" data-modal="modal-cotw-2-E"> X </button>
     </div>
 
     <!-- Modal Body -->
@@ -155,17 +149,19 @@ The following presents examples containing a video link and four, three minutes-
     </div>
 </dialog>
 
-<div style="width: 100%;">
-    <div  style="float: left; margin-bottom:40px">
-        <div  style="float: left;">
-            <h4>Description</h4>
-
-            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/lP_wlA1x-Vo" frameborder="0" allowfullscreen=""></iframe></div>
-        </div>
-        <div  style="margin-left: 476px;">
-            <h4>Description Continuation</h4>
-            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/beBimQZdjKA" frameborder="0" allowfullscreen=""></iframe></div>
-        </div>
+<div class="video-row">
+    <div >
+         <h4>
+            <a class="open-modal" data-modal="modal-cotw-2-E"> Description  </a>
+        </h4>
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/lP_wlA1x-Vo" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+    <span style="margin-right:0.5em; display:inline-block;"></span>
+    <div>
+        <h4>
+            <a class="open-modal" data-modal="modal-cotw-2-E"> Description Continuation </a>
+        </h4>
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/beBimQZdjKA" frameborder="0" allowfullscreen=""></iframe>
     </div>
 </div>
 
@@ -173,30 +169,35 @@ The following presents examples containing a video link and four, three minutes-
 
 **Video Link**: [O Segredo na Ilha, Episode 1](https://www.youtube.com/watch?v=Pf4HzTdA2WE&t=12188s)
 
-<div style="width: 100%;">
-    <div  style="float: left;">
-        <div  style="float: left; padding-bottom:20px">
-            <h4>Original w/ Augmented Volume</h4>
-            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/RFklOg3emtA" frameborder="0" allowfullscreen=""></iframe></div>
-        </div>
-        <div  style="margin-left: 476px;">
-            <h4>Emotion</h4>
-            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/4dv2YIZz7sQ" frameborder="0" allowfullscreen=""></iframe></div>
-        </div>
+<div class="video-row">
+    <div >
+        <h4>Original w/ Augmented Volume</h4>
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/RFklOg3emtA" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+    <span style="margin-right:0.5em; display:inline-block;"></span>
+    <div>
+        <h4>
+            <a class="open-modal" data-modal="modal-cotw-2-E"> Emotion </a>
+        </h4>
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/4dv2YIZz7sQ" frameborder="0" allowfullscreen=""></iframe>
     </div>
 </div>
 
-<div style="width: 100%;">
-    <div  style="float: left;">
-        <div  style="float: left; margin-bottom:40px">
-            <h4>Description</h4>
-            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/R3-5DUOIdO8" frameborder="0" allowfullscreen=""></iframe></div>
-        </div>
-        <div  style="margin-left: 476px;">
-            <h4>Description Continuation</h4>
-            <div class="videoWrapper"><iframe width="426" height="240" src="https://www.youtube.com/embed/9CnYtTqdCnU" frameborder="0" allowfullscreen=""></iframe></div>
-        </div>
+<div class="video-row">
+    <div >
+         <h4>
+            <a class="open-modal" data-modal="modal-cotw-2-E"> Description  </a>
+        </h4>
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/R3-5DUOIdO8" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+    <span style="margin-right:0.5em; display:inline-block;"></span>
+    <div>
+        <h4>
+            <a class="open-modal" data-modal="modal-cotw-2-E"> Description Continuation </a>
+        </h4>
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/9CnYtTqdCnU" frameborder="0" allowfullscreen=""></iframe>
     </div>
 </div>
 
+{% include video_embed.html %}
 {% include modal.html %}
