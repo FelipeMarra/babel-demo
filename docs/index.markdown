@@ -3,6 +3,29 @@ layout: post
 title:  ''
 ---
 
+<!-- Title -->
+
+Long-Form Text-to-Music Generation with Adaptive Prompts: <br> A Case of Study in Tabletop Role-Playing Games Soundtracks
+---------------
+{: style="font-size: 160%; text-align: center;"}
+
+<!-- Authors -->
+<div> <a href="https://www.felipemarra.com">Felipe Marra </a> <span style="display:block; width=10px"> </span> <a href="https://www.lucasnferreira.com/">Lucas N. Ferreira</a></div>
+{: style="display:flex; align-items: center; justify-content: space-around; font-size: 130%;"}
+
+<br>
+
+<!-- Conference -->
+LAMIR 2024
+{: style="text-align: center;"}
+
+
+<!-- External Links -->
+**Paper**: [https://arxiv.org/html/2411.03948v1](https://arxiv.org/html/2411.03948v1)
+
+**Code**: [github.com/FelipeMarra/babel-bardo](https://github.com/FelipeMarra/babel-bardo)
+
+<!-- Body -->
 
 Abstract
 ---------------
@@ -12,17 +35,11 @@ This paper investigates the capabilities of text-to-audio music generation model
 ___________________________________________________________________________________________________________________________________________________________
 
 
-System Overview
----------------
+## System Overview
+
 At every 30 seconds of gameplay, Babel Bardo transcribes the players' speeches into a text _s<sub>i</sub>_ using a Speech Recognition system and uses a Large Langue Model (LLM) to map _s<sub>i</sub>_ into a music description _d<sub>i</sub>_ that matches the scene described by the players. This music description is given to a Text-to-Music system that generates a 30-second piece _a<sub>i</sub>_ directly in the audio domain. <br><br>
 
 <img src="{{site.baseurl}}/assets/imgs/bardo_overview.png"> <br><br>
-
-For more information please head towards the original paper or it's code repository.
-
-**Paper**: arxiv.org/pdf/TODO
-
-**Code**: [github.com/FelipeMarra/babel-bardo](https://github.com/FelipeMarra/babel-bardo)
 
 ___________________________________________________________________________________________________________________________________________________________
 
