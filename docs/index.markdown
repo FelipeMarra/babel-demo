@@ -33,19 +33,22 @@ The following presents examples containing a video link and four, three minutes-
 ### Example 1
 **Video Link**: [Call of The Wild, Episode 2](https://www.youtube.com/watch?v=5_Z8pVgCIgw&t=60)
 
-**About**: In this example, we start at 1 min in the episode. Although the generation started at 0 min, we decided to center the example around a point where the systems might have identified an emotion transition. The video starts with cuts of episode 1, remembering the tragedies faced by the players. When the adventure of episode 2 begins, the players are talking about invading a farmer village. The possible transition point happens at minute 1:27, when the master narrates a calm scene about the farmers, where a father and his son are arriving at the village. Although it looks like a calm scene, in this context the players will actually destroy the village, since the villagers kidnapped members of the player's tribe. We can observe that Babel Bardo Description Continuation (BBDC) reacted to this at minute 1:50, generating a calm guitar. BBDC goes back and forth into calm guitar and suspense music, then settles up to calm guitar. Babel Bardo Emotion receives the emotion "Calm" from the LLM in this excerpt, but it maintains its consistency in relation to the previously generated music. The Description version is consistent in generating a Suspelceful piece.
+**About**: In this example, we start at 1 min in the episode. Although the generation started at 0 min, we decided to center the example around a point where the systems might have identified an emotion transition. The video starts with cuts of episode 1, remembering the tragedies faced by the players. When the adventure of episode 2 begins, the players are talking about invading a farmer village. The possible transition point happens at minute 1:27, when the master narrates a calm scene about the farmers, where a father and his son are arriving at the village. Although it looks like a calm scene, in this context the players will actually destroy the village, since the villagers kidnapped members of the player's tribe. 
 
 <div class="video-row">
-    <div >
+    <div class="video-block" >
         <h4>Original</h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/yqIufAQhebg" frameborder="0" allowfullscreen=""></iframe>
     </div>
-    <span style="margin-right:0.5em; display:inline-block;"></span>
-    <div>
+
+    <div class="video-block">
         <h4>
             <a class="open-modal" data-modal="modal-cotw-2-E"> Emotion </a>
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/0LZERqRHSb4" frameborder="0" allowfullscreen=""></iframe>
+        <p> 
+            Babel Bardo Emotion receives the emotion "Calm" from the LLM in this excerpt, but it maintains its consistency in relation to the previously generated music.
+        </p>
     </div>
 </div>
 
@@ -150,18 +153,20 @@ The following presents examples containing a video link and four, three minutes-
 </dialog>
 
 <div class="video-row">
-    <div >
+    <div class="video-block">
          <h4>
             <a class="open-modal" data-modal="modal-cotw-2-D"> Description  </a>
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/lP_wlA1x-Vo" frameborder="0" allowfullscreen=""></iframe>
+        <p> The Description version is consistent in generating a Suspelceful piece. </p>
     </div>
-    <span style="margin-right:0.5em; display:inline-block;"></span>
-    <div>
+
+    <div class="video-block">
         <h4>
             <a class="open-modal" data-modal="modal-cotw-2-DC"> Description Continuation </a>
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/beBimQZdjKA" frameborder="0" allowfullscreen=""></iframe>
+        <p> We can observe that Babel Bardo Description Continuation (BBDC) reacted to the calm scene at 1:50, generating a calm guitar. BBDC goes back and forth into calm guitar and suspense music, then settles up to calm guitar. </p>
     </div>
 </div>
 
@@ -364,12 +369,12 @@ The following presents examples containing a video link and four, three minutes-
 **Video Link**: [O Segredo na Ilha, Episode 1](https://www.youtube.com/watch?v=Pf4HzTdA2WE&t=12188s)
 
 <div class="video-row">
-    <div >
+    <div class="video-block">
         <h4>Original w/ Augmented Volume</h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/RFklOg3emtA" frameborder="0" allowfullscreen=""></iframe>
     </div>
-    <span style="margin-right:0.5em; display:inline-block;"></span>
-    <div>
+
+    <div class="video-block">
         <h4>
             <a class="open-modal" data-modal=""> Emotion </a>
         </h4>
@@ -377,15 +382,112 @@ The following presents examples containing a video link and four, three minutes-
     </div>
 </div>
 
+<!-- Modal OSNI 1 E -->
+<dialog id="modal-osni-1-E">
+    <div class="modal-header">
+        <h1 class="modal-title"> Babel Bardo E Logs </h1>
+
+        <!-- Close Modal -->
+        <button class="close-modal" type="button" data-modal="modal-osni-1-E"> X </button>
+    </div>
+
+    <!-- Modal Body -->
+    <div class="modal-body">
+            <p>
+                <b>LLM Prompt Setup:</b> You are going to receive a series of Role-playing Game (RPG) video transcript excerpts from players dialogs playing a campaing called Call Of The Wild. Your task is to determine whether each excerpt is from the same campaign chapter as the previous one, and based on this determination, either return the word 'CONTINUE.' or generate a music description in english. If no previous transcript has been provided, consider that the current excerpt is the beginning of a new chapter. For each transcript excerpt you will describe a piece of background music that matches that excerpt. If the excerpt is part of the same story chapter as the previous excerpt, the given answer should only contain the word 'CONTINUE.' Your description will be fed to a text to music model. The description should be concise. Do not mention anything about the dialog excerpt. Here is a prompt that worked well with the music model: A grand orchestral arrangement with thunderous percussion, epic brass fanfares, and soaring strings, creating a cinematic atmosphere fit for a heroic battle.
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 0:01:00 <br>
+                <b>Example Time:</b> 0:00:00
+            </p>
+            <p>
+                <b>Transciption:</b> "Ste little Steve they took them the slaves D finds a scroll on one of the guard's bodies it says there were orders to come and clear the outskirts of the town of savages the order was sent by Orville the cleric of Quinton Shire Orville of Quinton Shire Orville of Quinton Shire sent these orders directly what's up everybody tonight we"
+            </p>
+            <p>
+                <b>Music Description:</b> "A haunting, atmospheric soundscape with a lone, mournful violin playing a slow, elegiac melody, accompanied by the soft creaking of wooden signs and the distant, muffled sound of murmured prayers, evoking a sense of unease and foreboding."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 0:01:30 <br>
+                <b>Example Time:</b> 0:00:30
+            </p>
+            <p>
+                <b>Transciption:</b> "are playing Dungeons and Dragons and last time we left off with a very traumatizing event for our party bran Darion and Noki a uh Barbarian tribe went out hunting and came back to see their Village slaughtered noi's family is dead darian's family thankfully survived but br's family his wife and child are missing they are on the hunt to find"
+            </p>
+            <p>
+                <b>Music Description:</b> "CONTINUE."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 0:02:00 <br>
+                <b>Example Time:</b> 0:01:00
+            </p>
+            <p>
+                <b>Transciption:</b> "them [Music] Place yourselves at the edge of the forest when you're ready okay so let's figure out what we're going to do plan of action okay first off Brandon's family is missing still right yeah you should find them secondly you should find the leaders of this town and assassinate them I can turn myself into a rat and I can go around town and try to find them or we can talk to animals and try to so as you guys are discussing this something interrupts your"
+            </p>
+            <p>
+                <b>Music Description:</b> "A tense, suspenseful theme with a repetitive, pulsing bassline and eerie ambient pads, punctuated by the faint sounds of scurrying rodents and distant, muffled voices, creating an atmosphere of unease and foreboding."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 0:02:30 <br>
+                <b>Example Time:</b> 0:01:30
+            </p>
+
+            <p>
+                <b>Transciption:</b> "conversation there is a son and his father walking along the edge of the stones here and they walk along the stones and they're both carrying sacks of potatoes potatoes they're walking along and the young young child says potatoes I love potatoes and the father's like well you know who makes the best potatoes I'm going to shoot no my love my mom she makes the best potatoes sou I'm so excited for potatoes tonight this evening is going to be the best when mom makes up wait does that"
+            </p>
+
+            <p>
+                <b>Music Description:</b> "A warm, heartwarming melody with a gentle, lilting quality, featuring a solo acoustic guitar and a soft, soothing vocal harmony, evoking a sense of innocence, simplicity, and domestic joy."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 0:03:00 <br>
+                <b>Example Time:</b> 0:02:00
+            </p>
+            <p>
+                <b>Transciption:</b> "sound like does that sound like uh my son's voice oh no that does not sound like your son's voice these look like two farmers oh I hope the Savages never come down from the hills oh we we'll kill all the Savages son Oh yay father when I grow up I want to kill the Savages too and they walk along guys hey I whisper to you guys we'll burn their house down tonight while they're sleeping I can do it from behind this wall just throw a little Fireball at the corner ooh Magic I like that I should gather all the poisonous herbs I can"
+            </p>
+            <p>
+                <b>Music Description:</b> "A dark, ominous theme with a sense of foreboding, featuring a low, pulsing drone and the faint sound of crackling flames, accompanied by an eerie, whispered vocal harmony, evoking a sense of malevolence and impending violence."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 0:03:30 <br>
+                <b>Example Time:</b> 0:02:30
+            </p>
+            <p>
+                <b>Transciption:</b> "find in the woods so that we can start you know use poisoning people if we need to Sam I'd like to use my herbalist kit and scour the woods and find some poisons starting now I rolled in 19 you find thistle root Thorn root Black Widow root green green Fang root and you find um classic green Fang rout uh you also find um yellow yellow tank same thing I hear they use that in space"
+            </p>
+            <p>
+                <b>Music Description:</b> "A foreboding, atmospheric soundscape with a focus on eerie, unsettling textures, featuring the sound of rustling leaves, snapping twigs, and distant, muted whispers, evoking a sense of unease and danger lurking in the shadows."
+            </p>
+    </div>
+</dialog>
+
 <div class="video-row">
-    <div >
+    <div class="video-block">
          <h4>
             <a class="open-modal" data-modal=""> Description  </a>
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/R3-5DUOIdO8" frameborder="0" allowfullscreen=""></iframe>
     </div>
-    <span style="margin-right:0.5em; display:inline-block;"></span>
-    <div>
+
+    <div class="video-block">
         <h4>
             <a class="open-modal" data-modal=""> Description Continuation </a>
         </h4>
