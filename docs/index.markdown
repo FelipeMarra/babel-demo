@@ -14,8 +14,8 @@ Long-Form Text-to-Music Generation with Adaptive Prompts: <br> A Case of Study i
 {: style="display:flex; align-items: center; justify-content: space-around; font-size: 130%;"}
 
 <!-- Conference -->
-LAMIR 2024
-{: style="text-align: center;"}
+<a href="https://lamir-workshop.github.io/"> LAMIR 2024 </a>
+{: style="text-align: center; font-size: 115%;"}
 
 <br>
 
