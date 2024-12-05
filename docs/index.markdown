@@ -10,15 +10,14 @@ Long-Form Text-to-Music Generation with Adaptive Prompts: <br> A Case of Study i
 {: style="font-size: 160%; text-align: center;"}
 
 <!-- Authors -->
-<div> <a href="https://www.felipemarra.com">Felipe Marra </a> <span style="display:block; width=10px"> </span> <a href="https://www.lucasnferreira.com/">Lucas N. Ferreira</a></div>
+<div> <a href="https://www.felipemarra.com">Felipe Marra </a> <span style="display:block; width:10px"> </span> <a href="https://www.lucasnferreira.com/">Lucas N. Ferreira</a></div>
 {: style="display:flex; align-items: center; justify-content: space-around; font-size: 130%;"}
-
-<br>
 
 <!-- Conference -->
 LAMIR 2024
 {: style="text-align: center;"}
 
+<br>
 
 <!-- External Links -->
 **Paper**: [https://arxiv.org/html/2411.03948v1](https://arxiv.org/html/2411.03948v1)
@@ -175,7 +174,7 @@ The following presents examples containing a video link and four, three minutes-
             <a class="open-modal" data-modal="modal-cotw-2-D"> Description  </a>
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/lP_wlA1x-Vo" frameborder="0" allowfullscreen=""></iframe>
-        <p> The Description version is consistent in generating a Suspelceful piece. </p>
+        <p> The Description version is consistent in generating a suspelceful piece. </p>
     </div>
 
     <div class="video-block">
@@ -385,6 +384,8 @@ The following presents examples containing a video link and four, three minutes-
 
 **Video Link**: [O Segredo na Ilha, Episode 1](https://www.youtube.com/watch?v=Pf4HzTdA2WE&t=12188s)
 
+**About**: In this example, we start at 3:23:09 hours in the episode. The players are discussing about letters they found in a aboundoned mansion. They are trying to discover who the authors of the letters were, they might have been employees of the mantion or resident of the island were the mantion is situated. They are also trying to discover the meaning of some documents they found. The overall the atmosphere is tense and mysterious.
+
 <div class="video-row">
     <div class="video-block">
         <h4>Original w/ Augmented Volume</h4>
@@ -393,9 +394,12 @@ The following presents examples containing a video link and four, three minutes-
 
     <div class="video-block">
         <h4>
-            <a class="open-modal" data-modal=""> Emotion </a>
+            <a class="open-modal" data-modal="modal-osni-1-E"> Emotion </a>
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/4dv2YIZz7sQ" frameborder="0" allowfullscreen=""></iframe>
+        <p> 
+            Babel Bardo Emotion prompts go from "Suspenseful", to "Agitated", to "Calm". The music sounds a litter off from the start, with a theme that sounds somewhat oriental. It creates and maintains a theme.
+        </p>
     </div>
 </div>
 
@@ -411,106 +415,325 @@ The following presents examples containing a video link and four, three minutes-
     <!-- Modal Body -->
     <div class="modal-body">
             <p>
-                <b>LLM Prompt Setup:</b> You are going to receive a series of Role-playing Game (RPG) video transcript excerpts from players dialogs playing a campaing called Call Of The Wild. Your task is to determine whether each excerpt is from the same campaign chapter as the previous one, and based on this determination, either return the word 'CONTINUE.' or generate a music description in english. If no previous transcript has been provided, consider that the current excerpt is the beginning of a new chapter. For each transcript excerpt you will describe a piece of background music that matches that excerpt. If the excerpt is part of the same story chapter as the previous excerpt, the given answer should only contain the word 'CONTINUE.' Your description will be fed to a text to music model. The description should be concise. Do not mention anything about the dialog excerpt. Here is a prompt that worked well with the music model: A grand orchestral arrangement with thunderous percussion, epic brass fanfares, and soaring strings, creating a cinematic atmosphere fit for a heroic battle.
+                <b>LLM Prompt Setup:</b> You are going to receive a series of Role-playing Game (RPG) video transcript excerpts from players dialogs playing a campaing called O Segredo Na Ilha. You will classify each dialog into one of the following emotions: Happy, Calm, Agitated, or Suspenseful. Your answer will be just one word, that is, one of those emotions.
+            </p>
+            <p>
+                <b>Music Description Prime:</b> "Background music for a Role-playing Game (RPG) dialog, with the following emotion:"
             </p>
 
             <hr>
 
             <p>
-                <b>Original Time:</b> 0:01:00 <br>
+                <b>Original Time:</b> 3:23:08 <br>
                 <b>Example Time:</b> 0:00:00
             </p>
             <p>
-                <b>Transciption:</b> "Ste little Steve they took them the slaves D finds a scroll on one of the guard's bodies it says there were orders to come and clear the outskirts of the town of savages the order was sent by Orville the cleric of Quinton Shire Orville of Quinton Shire Orville of Quinton Shire sent these orders directly what's up everybody tonight we"
+                <b>Transciption:</b> "O doce a 12 mais jogos desses agora já tinha jogado descer junto com que já tomou já falei Ok você sabe que é muito comum para pessoas Afinal você cresceu muito rica Eu só cheguei no serviço aí que moram junto com elas nas casas é bem provável que essas pessoas que estão trocando bilhetinhos sejamos eram serviçais do pintor tá "
             </p>
             <p>
-                <b>Music Description:</b> "A haunting, atmospheric soundscape with a lone, mournful violin playing a slow, elegiac melody, accompanied by the soft creaking of wooden signs and the distant, muffled sound of murmured prayers, evoking a sense of unease and foreboding."
+                <b>Music Description:</b> "Background music for a Role-playing Game (RPG) dialog, with the following emotion: Suspenseful"
             </p>
 
             <hr>
 
             <p>
-                <b>Original Time:</b> 0:01:30 <br>
+                <b>Original Time:</b> 3:23:38 <br>
                 <b>Example Time:</b> 0:00:30
             </p>
             <p>
-                <b>Transciption:</b> "are playing Dungeons and Dragons and last time we left off with a very traumatizing event for our party bran Darion and Noki a uh Barbarian tribe went out hunting and came back to see their Village slaughtered noi's family is dead darian's family thankfully survived but br's family his wife and child are missing they are on the hunt to find"
+                <b>Transciption:</b> "então tem a pessoa que que trabalhava aqui tava alguns pontos que tava mandando bilhete para o matar o dilei linha que pode ser a pessoa que falou para se encontrar no jardim e tomar um vinho é verdade mas é leilinha trabalhava aqui dentro Olha aí linha também olha Terra então esses bilhetes funcionários se comunicam acho que não os funcionários talvez se alguém que morrava na ilha porque se você pegar esse bilhete aqui"
             </p>
             <p>
-                <b>Music Description:</b> "CONTINUE."
+                <b>Music Description:</b> "Background music for a Role-playing Game (RPG) dialog, with the following emotion: Suspenseful"
             </p>
 
             <hr>
 
             <p>
-                <b>Original Time:</b> 0:02:00 <br>
+                <b>Original Time:</b> 3:24:08 <br>
                 <b>Example Time:</b> 0:01:00
             </p>
             <p>
-                <b>Transciption:</b> "them [Music] Place yourselves at the edge of the forest when you're ready okay so let's figure out what we're going to do plan of action okay first off Brandon's family is missing still right yeah you should find them secondly you should find the leaders of this town and assassinate them I can turn myself into a rat and I can go around town and try to find them or we can talk to animals and try to so as you guys are discussing this something interrupts your"
+                <b>Transciption:</b> "do querido é uma mulher escrevendo isso e a menos que reúnam precisou aqui prendendo esse conceito É verdade não tá tudo certo mas Envia Eu acho que a Leidinha trabalhava aqui e queria tinha algo romântico com alguém de folga e eu não sei pode ser o velho lá né porque ser o velho é lo e tem anoral mas também "
             </p>
             <p>
-                <b>Music Description:</b> "A tense, suspenseful theme with a repetitive, pulsing bassline and eerie ambient pads, punctuated by the faint sounds of scurrying rodents and distant, muffled voices, creating an atmosphere of unease and foreboding."
+                <b>Music Description:</b> "Background music for a Role-playing Game (RPG) dialog, with the following emotion: Suspenseful"
             </p>
 
             <hr>
 
             <p>
-                <b>Original Time:</b> 0:02:30 <br>
+                <b>Original Time:</b> 3:24:38 <br>
                 <b>Example Time:</b> 0:01:30
             </p>
 
             <p>
-                <b>Transciption:</b> "conversation there is a son and his father walking along the edge of the stones here and they walk along the stones and they're both carrying sacks of potatoes potatoes they're walking along and the young young child says potatoes I love potatoes and the father's like well you know who makes the best potatoes I'm going to shoot no my love my mom she makes the best potatoes sou I'm so excited for potatoes tonight this evening is going to be the best when mom makes up wait does that"
+                <b>Transciption:</b> "a outra moça mas é normal mas é normal mas não é ou não alma jamais tem um ter mais gente trocando bilhete em várias pessoas trocando bilhetes ou então negócio muito esquisito aqui que a lista de coisa aqui herdou que tem um negócio estranho tá entendeu Lícia documento o Marquinho bota mais galocha Gaúcha uns fertilizante vencido umas garrafas de cachaça lá casa diante da oposição que se mentário"
             </p>
 
             <p>
-                <b>Music Description:</b> "A warm, heartwarming melody with a gentle, lilting quality, featuring a solo acoustic guitar and a soft, soothing vocal harmony, evoking a sense of innocence, simplicity, and domestic joy."
+                <b>Music Description:</b> "Background music for a Role-playing Game (RPG) dialog, with the following emotion: Agitated"
             </p>
 
             <hr>
 
             <p>
-                <b>Original Time:</b> 0:03:00 <br>
+                <b>Original Time:</b> 3:25:08 <br>
                 <b>Example Time:</b> 0:02:00
             </p>
             <p>
-                <b>Transciption:</b> "sound like does that sound like uh my son's voice oh no that does not sound like your son's voice these look like two farmers oh I hope the Savages never come down from the hills oh we we'll kill all the Savages son Oh yay father when I grow up I want to kill the Savages too and they walk along guys hey I whisper to you guys we'll burn their house down tonight while they're sleeping I can do it from behind this wall just throw a little Fireball at the corner ooh Magic I like that I should gather all the poisonous herbs I can"
+                <b>Transciption:</b> "fertilizantes quando eu li isso eu tinha também uma caixa e ele não leva conhecer é uma caixa de metal mas com 25 você mandamento e 25 cartas e telegramas as cartas espaço sujo.de coisa vermelha de sangue né coisa vermelha surgindo com as coisas e ketchup você tá maluco Esse fim então louco vai ficar o tinta verdade"
             </p>
             <p>
-                <b>Music Description:</b> "A dark, ominous theme with a sense of foreboding, featuring a low, pulsing drone and the faint sound of crackling flames, accompanied by an eerie, whispered vocal harmony, evoking a sense of malevolence and impending violence."
+                <b>Music Description:</b> "Background music for a Role-playing Game (RPG) dialog, with the following emotion: Agitated"
             </p>
 
             <hr>
 
             <p>
-                <b>Original Time:</b> 0:03:30 <br>
+                <b>Original Time:</b> 3:25:38 <br>
                 <b>Example Time:</b> 0:02:30
             </p>
             <p>
-                <b>Transciption:</b> "find in the woods so that we can start you know use poisoning people if we need to Sam I'd like to use my herbalist kit and scour the woods and find some poisons starting now I rolled in 19 you find thistle root Thorn root Black Widow root green green Fang root and you find um classic green Fang rout uh you also find um yellow yellow tank same thing I hear they use that in space"
+                <b>Transciption:</b> "mas vocês chegam no escritório realmente 50 o centro do escritório vocês vem o o motel Ele está realmente bem imerso na ele tá tipo analisando e botou alguns quadros em cima da mesa assim lá dos pequenos ele tá de finalizando com equipamentos mais específicos bonitinhas com lentes pequenas ele nem percebe a você trabalha como se vocês não existissem ali para ele tem alguns pontos tem um armário + isqueiro de vocês tem a própria mesa com"
             </p>
             <p>
-                <b>Music Description:</b> "A foreboding, atmospheric soundscape with a focus on eerie, unsettling textures, featuring the sound of rustling leaves, snapping twigs, and distant, muted whispers, evoking a sense of unease and danger lurking in the shadows."
+                <b>Music Description:</b> "Background music for a Role-playing Game (RPG) dialog, with the following emotion: Calm"
             </p>
     </div>
 </dialog>
 
 <div class="video-row">
     <div class="video-block">
-         <h4>
-            <a class="open-modal" data-modal=""> Description  </a>
+        <h4>
+            <a class="open-modal" data-modal="modal-osni-1-D"> Description  </a>
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/R3-5DUOIdO8" frameborder="0" allowfullscreen=""></iframe>
+        <p> 
+            Babel Bardo Description starts with a great suspenseful song, but then completely looses it at 1:53.
+        </p>
     </div>
 
     <div class="video-block">
         <h4>
-            <a class="open-modal" data-modal=""> Description Continuation </a>
+            <a class="open-modal" data-modal="modal-osni-1-DC"> Description Continuation </a>
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/9CnYtTqdCnU" frameborder="0" allowfullscreen=""></iframe>
+        <p> 
+            Babel Bardo Description Continuation receives a prompts to just continue the previus generation w/o a new description 4 times in a row. It generates an interesting mysterious piece, but the transitions and generation restarts very noticeble. Notice the transition around the 1 min mark.
+        </p>
     </div>
 </div>
+
+<!-- Modal OSNI 1 D -->
+<dialog id="modal-osni-1-D">
+    <div class="modal-header">
+        <h1 class="modal-title"> Babel Bardo D Logs </h1>
+
+        <!-- Close Modal -->
+        <button class="close-modal" type="button" data-modal="modal-osni-1-D"> X </button>
+    </div>
+
+    <!-- Modal Body -->
+    <div class="modal-body">
+            <p>
+                <b>LLM Prompt Setup:</b> You are going to receive a series of Role-playing Game (RPG) video transcript excerpts from players dialogs playing a campaing called Call Of The Wild. For each transcript excerpt you will, in english, describe a piece of background music that matches that excerpt. Your answer will be fed to a text to music model and should only contain a music description. The description should be concise. Do not mention any dialog excerpt details. Here is a prompt that worked well with the music model: A grand orchestral arrangement with thunderous percussion, epic brass fanfares, and soaring strings, creating a cinematic atmosphere fit for a heroic battle.
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:23:08 <br>
+                <b>Example Time:</b> 0:00:00
+            </p>
+            <p>
+                <b>Transciption:</b> "O doce a 12 mais jogos desses agora já tinha jogado descer junto com que já tomou já falei Ok você sabe que é muito comum para pessoas Afinal você cresceu muito rica Eu só cheguei no serviço aí que moram junto com elas nas casas é bem provável que essas pessoas que estão trocando bilhetinhos sejamos eram serviçais do pintor tá "
+            </p>
+            <p>
+                <b>Music Description:</b> "A subtle, mysterious ambient track with soft, pulsing synths and a hint of eerie tension, suggesting secrets and whispers in the shadows."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:23:38 <br>
+                <b>Example Time:</b> 0:00:30
+            </p>
+            <p>
+                <b>Transciption:</b> "então tem a pessoa que que trabalhava aqui tava alguns pontos que tava mandando bilhete para o matar o dilei linha que pode ser a pessoa que falou para se encontrar no jardim e tomar um vinho é verdade mas é leilinha trabalhava aqui dentro Olha aí linha também olha Terra então esses bilhetes funcionários se comunicam acho que não os funcionários talvez se alguém que morrava na ilha porque se você pegar esse bilhete aqui"
+            </p>
+            <p>
+                <b>Music Description:</b> "A slow-burning, atmospheric soundscape with haunting piano notes and an undercurrent of foreboding, hinting at hidden connections and clandestine meetings."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:24:08 <br>
+                <b>Example Time:</b> 0:01:00
+            </p>
+            <p>
+                <b>Transciption:</b> "do querido é uma mulher escrevendo isso e a menos que reúnam precisou aqui prendendo esse conceito É verdade não tá tudo certo mas Envia Eu acho que a Leidinha trabalhava aqui e queria tinha algo romântico com alguém de folga e eu não sei pode ser o velho lá né porque ser o velho é lo e tem anoral mas também "
+            </p>
+            <p>
+                <b>Music Description:</b> "A wistful, nostalgic melody with a lone violin and soft, muted percussion, evoking a sense of longing and repressed emotions, hinting at secrets and forbidden love."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:24:38 <br>
+                <b>Example Time:</b> 0:01:30
+            </p>
+
+            <p>
+                <b>Transciption:</b> "a outra moça mas é normal mas é normal mas não é ou não alma jamais tem um ter mais gente trocando bilhete em várias pessoas trocando bilhetes ou então negócio muito esquisito aqui que a lista de coisa aqui herdou que tem um negócio estranho tá entendeu Lícia documento o Marquinho bota mais galocha Gaúcha uns fertilizante vencido umas garrafas de cachaça lá casa diante da oposição que se mentário"
+            </p>
+
+            <p>
+                <b>Music Description:</b> "A quirky, offbeat tune with a hint of mischief and playfulness, featuring a lively accordion and a dash of rustic charm, suggesting a sense of intrigue and possibly even deceit."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:25:08 <br>
+                <b>Example Time:</b> 0:02:00
+            </p>
+            <p>
+                <b>Transciption:</b> "fertilizantes quando eu li isso eu tinha também uma caixa e ele não leva conhecer é uma caixa de metal mas com 25 você mandamento e 25 cartas e telegramas as cartas espaço sujo.de coisa vermelha de sangue né coisa vermelha surgindo com as coisas e ketchup você tá maluco Esse fim então louco vai ficar o tinta verdade"
+            </p>
+            <p>
+                <b>Music Description:</b> "A dark, ominous soundscape with a sense of foreboding and menace, featuring distorted synths and a pulsing beat, hinting at secrets, bloodshed, and chaos lurking beneath the surface."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:25:38 <br>
+                <b>Example Time:</b> 0:02:30
+            </p>
+            <p>
+                <b>Transciption:</b> "mas vocês chegam no escritório realmente 50 o centro do escritório vocês vem o o motel Ele está realmente bem imerso na ele tá tipo analisando e botou alguns quadros em cima da mesa assim lá dos pequenos ele tá de finalizando com equipamentos mais específicos bonitinhas com lentes pequenas ele nem percebe a você trabalha como se vocês não existissem ali para ele tem alguns pontos tem um armário + isqueiro de vocês tem a própria mesa com"
+            </p>
+            <p>
+                <b>Music Description:</b> "A focused, intense ambient track with a sense of concentration and attention to detail, featuring soft, muted electronics and a hint of precision, evoking the feeling of a meticulous and absorbed individual at work."
+            </p>
+    </div>
+</dialog>
+
+<!-- Modal OSNI 1 DC -->
+<dialog id="modal-osni-1-DC">
+    <div class="modal-header">
+        <h1 class="modal-title"> Babel Bardo DC Logs </h1>
+
+        <!-- Close Modal -->
+        <button class="close-modal" type="button" data-modal="modal-osni-1-DC"> X </button>
+    </div>
+
+    <!-- Modal Body -->
+    <div class="modal-body">
+            <p>
+                <b>LLM Prompt Setup:</b> You are going to receive a series of Role-playing Game (RPG) video transcript excerpts from players dialogs playing a campaing called Call Of The Wild. Your task is to determine whether each excerpt is from the same campaign chapter as the previous one, and based on this determination, either return the word 'CONTINUE.' or generate a music description in english. If no previous transcript has been provided, consider that the current excerpt is the beginning of a new chapter. For each transcript excerpt you will describe a piece of background music that matches that excerpt. If the excerpt is part of the same story chapter as the previous excerpt, the given answer should only contain the word 'CONTINUE.' Your description will be fed to a text to music model. The description should be concise. Do not mention anything about the dialog excerpt. Here is a prompt that worked well with the music model: A grand orchestral arrangement with thunderous percussion, epic brass fanfares, and soaring strings, creating a cinematic atmosphere fit for a heroic battle.
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:23:08 <br>
+                <b>Example Time:</b> 0:00:00
+            </p>
+            <p>
+                <b>Transciption:</b> "O doce a 12 mais jogos desses agora já tinha jogado descer junto com que já tomou já falei Ok você sabe que é muito comum para pessoas Afinal você cresceu muito rica Eu só cheguei no serviço aí que moram junto com elas nas casas é bem provável que essas pessoas que estão trocando bilhetinhos sejamos eram serviçais do pintor tá "
+            </p>
+            <p>
+                <b>Music Description:</b> "It seems like we're starting a new chapter. Here's a music description that matches the atmosphere of this excerpt:
+                <br><br>
+                A mysterious and whimsical tune with a hint of playfulness, featuring a solo piano or a small ensemble, creating an air of curiosity and subtle intrigue.
+                <br><br>
+                Please provide the next transcript excerpt!"
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:23:38 <br>
+                <b>Example Time:</b> 0:00:30
+            </p>
+            <p>
+                <b>Transciption:</b> "então tem a pessoa que que trabalhava aqui tava alguns pontos que tava mandando bilhete para o matar o dilei linha que pode ser a pessoa que falou para se encontrar no jardim e tomar um vinho é verdade mas é leilinha trabalhava aqui dentro Olha aí linha também olha Terra então esses bilhetes funcionários se comunicam acho que não os funcionários talvez se alguém que morrava na ilha porque se você pegar esse bilhete aqui"
+            </p>
+            <p>
+                <b>Music Description:</b> " It seems like this excerpt is part of the same story chapter as the previous one. Here's my answer:
+                <br><br>
+                CONTINUE."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:24:08 <br>
+                <b>Example Time:</b> 0:01:00
+            </p>
+            <p>
+                <b>Transciption:</b> "do querido é uma mulher escrevendo isso e a menos que reúnam precisou aqui prendendo esse conceito É verdade não tá tudo certo mas Envia Eu acho que a Leidinha trabalhava aqui e queria tinha algo romântico com alguém de folga e eu não sei pode ser o velho lá né porque ser o velho é lo e tem anoral mas também "
+            </p>
+            <p>
+                <b>Music Description:</b> " It seems like this excerpt is part of the same story chapter as the previous one. Here's my answer:
+                <br><br>
+                CONTINUE."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:24:38 <br>
+                <b>Example Time:</b> 0:01:30
+            </p>
+
+            <p>
+                <b>Transciption:</b> "a outra moça mas é normal mas é normal mas não é ou não alma jamais tem um ter mais gente trocando bilhete em várias pessoas trocando bilhetes ou então negócio muito esquisito aqui que a lista de coisa aqui herdou que tem um negócio estranho tá entendeu Lícia documento o Marquinho bota mais galocha Gaúcha uns fertilizante vencido umas garrafas de cachaça lá casa diante da oposição que se mentário"
+            </p>
+
+            <p>
+                <b>Music Description:</b> "It seems like this excerpt is part of the same story chapter as the previous one. Here's my answer:
+                <br><br>
+                CONTINUE."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:25:08 <br>
+                <b>Example Time:</b> 0:02:00
+            </p>
+            <p>
+                <b>Transciption:</b> "fertilizantes quando eu li isso eu tinha também uma caixa e ele não leva conhecer é uma caixa de metal mas com 25 você mandamento e 25 cartas e telegramas as cartas espaço sujo.de coisa vermelha de sangue né coisa vermelha surgindo com as coisas e ketchup você tá maluco Esse fim então louco vai ficar o tinta verdade"
+            </p>
+            <p>
+                <b>Music Description:</b> " It seems like this excerpt is part of the same story chapter as the previous one. Here's my answer:
+                <br><br>
+                CONTINUE."
+            </p>
+
+            <hr>
+
+            <p>
+                <b>Original Time:</b> 3:25:38 <br>
+                <b>Example Time:</b> 0:02:30
+            </p>
+            <p>
+                <b>Transciption:</b> "mas vocês chegam no escritório realmente 50 o centro do escritório vocês vem o o motel Ele está realmente bem imerso na ele tá tipo analisando e botou alguns quadros em cima da mesa assim lá dos pequenos ele tá de finalizando com equipamentos mais específicos bonitinhas com lentes pequenas ele nem percebe a você trabalha como se vocês não existissem ali para ele tem alguns pontos tem um armário + isqueiro de vocês tem a própria mesa com"
+            </p>
+            <p>
+                <b>Music Description:</b> " It seems like we're starting a new chapter. Here's a music description that matches the atmosphere of this excerpt:
+                <br><br>
+                A calm and focused ambient soundscape with soft, muted tones, featuring gentle piano or ambient synth textures, creating an air of quiet concentration and intense scrutiny.
+                <br><br>
+                Please provide the next transcript excerpt!"
+            </p>
+    </div>
+</dialog>
 
 {% include video_embed.html %}
 {% include modal.html %}
